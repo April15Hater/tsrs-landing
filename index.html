@@ -27,16 +27,9 @@
       padding: 14px 40px;
       display: flex; justify-content: space-between; align-items: center;
     }
-    .nav-logo { display: flex; align-items: center; gap: 12px; }
-    .nav-badge {
-      width: 38px; height: 38px; border-radius: 50%;
-      background: var(--amber); color: var(--bg);
-      display: flex; align-items: center; justify-content: center;
-      font-weight: 900; font-size: 13px; letter-spacing: -1px;
-      flex-shrink: 0;
-    }
-    .nav-name { font-weight: 800; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; }
-    .nav-sub  { color: var(--muted); font-size: 10px; letter-spacing: 1px; margin-top: 1px; }
+    .nav-logo { display: flex; align-items: center; gap: 14px; }
+    .nav-logo img { height: 44px; width: auto; display: block; }
+    .nav-sub  { color: var(--muted); font-size: 10px; letter-spacing: 1px; }
     .nav-phone { color: var(--amber); font-weight: 800; font-size: 16px; letter-spacing: 0.5px; text-decoration: none; }
     .nav-phone:hover { color: #ffd050; }
 
@@ -228,11 +221,8 @@
 
 <nav>
   <div class="nav-logo">
-    <div class="nav-badge">TS</div>
-    <div>
-      <div class="nav-name">Twin State Road Service</div>
-      <div class="nav-sub">Indian Trail, NC &middot; Fully Insured</div>
-    </div>
+    <img src="images/logo.png" alt="Twin State Road Service">
+    <div class="nav-sub">Indian Trail, NC &middot; Fully Insured</div>
   </div>
   <a href="tel:7045022733" class="nav-phone">(704) 502-2733</a>
 </nav>
